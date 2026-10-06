@@ -9,6 +9,6 @@ jobs:
     steps:
       - uses: actions/checkout@v6
         with:
-          fetch-depth: 0
+          fetch-depth: 9
       - name: awesome-lint
         run: ./.github/workflows/repo_linter.sh
